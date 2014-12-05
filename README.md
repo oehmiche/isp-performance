@@ -14,7 +14,7 @@ Start smokeping with ```/etc/init.d/smokeping start```
 ## Steps for setting up the Gitup push script
 Here are the steps to setup the script on your own raspberry pi:
 * create a github-project (or clone this project) 
-* create a public-private key without password-protection[^1]
+* create a public-private key without password-protection*
 * put the public key to your github settings (rtfm)
 * clone your github repository on your raspberry pi
 * adapt the `git.upload.sh` script with your local paths
@@ -32,4 +32,4 @@ Here are the steps to setup the script on your own raspberry pi:
 * [Unitymedia](http://oehmiche.github.io/isp-performance/) - Frankfurt Ostend
 * [Telekom](http://tiggar.github.io/isp-performance/) - Frankfurt Nordend
 
-[^1]: I don't know how to include a ssh-agent into the crontab-script, so that a password is not required when accessing the private key.
+*): I don't know how to include a ssh-agent into the crontab-script, so that a password is not required when accessing the private key.
