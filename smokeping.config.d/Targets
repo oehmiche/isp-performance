@@ -1,0 +1,35 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Raspberry Pi Internet Access Monitor
+remark = Latency to a few selected sites and services in the internet
+
++ Internet
+menu = Internet
+title = Internet Access (Ping)
+
+++ Google
+title = Google
+menu = Google
+host = www.google.com
+rawlog = %Y-%m-%d
+
+++ heise
+title = heise.de
+menu = heise
+host = www.heise.de
+rawlog = %Y-%m-%d
+
++ DNS
+menu = DNS
+title = Name Servers
+
++ gdns
+title = Google public DNS
+menu = Google public DNS
+probe = EchoPingDNS
+dns_request = www.google.com
+host = 8.8.8.8
+rawlog = %Y-%m-%d
