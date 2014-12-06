@@ -1,6 +1,6 @@
-# Raspberry PI script to measure the performance of your internet service provider (isp-performance)
-The script uses the [smokeping-tool](https://github.com/oetiker/SmokePing) to measure the performance of an internet service provider:
-With this setup here, the graph results will be pushed to a github-account regularly so they are available for everybody.
+# isp-performance:  smokeping with github-pages
+Shell-script solution which combines the great [smokeping-tool](https://github.com/oetiker/SmokePing) with github-pages: 
+runs on a raspberry pi and pushes the results of the smokeping-measurement to a github-repository, so that the charts with the performance of your internet service provider are available for everybody.
 
 ## Preliminary
 Setup your smokeping-server. 
