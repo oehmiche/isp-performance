@@ -13,10 +13,11 @@ curl --head  http://localhost/cgi-bin/smokeping.cgi?target=Internet.heise
 
 cd $GIT_FOLDER
 echo "working folder is $GIT_FOLDER"
+git checkout gh-pages
 # git pull
 echo "git pull..."
 git pull origin gh-pages
-git checkout gh-pages
+
 
 # cp folder
 echo "copying images to git folder..."
