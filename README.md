@@ -20,6 +20,7 @@ Here are the steps to setup the script on your own raspberry pi:
 * adapt the [git.upload.sh](git.upload.sh) script with your local paths
 * set the execution-bit for the user running the script (`chmod u+x git.upload.sh`)
 * create a crontab entry with `crontab -e`
+
 	```
 	05 */2 * * * /home/pi/smokeping/bin/git.upload.sh >> /home/pi/smokeping/logs/git.upload.log 2>&1
 	```
